@@ -72,7 +72,7 @@ export const data = [
             last:'Lenyie',
         },
         total: 795.95,
-        status: 'Completed',
+        status: 'Processing',
         method: 'PayPal',
         date:'1 Day ago',
     },

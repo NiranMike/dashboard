@@ -32,7 +32,7 @@ const Chart = () => {
                     label: 'Sales $',
                     data: [18127, 22201, 19490, 29843, 10893, 30284, 24352],
                     borderColor: 'rgb(53, 162, 235)',
-                    backgroundColor: 'rgb(53, 162, 235, 0.4)',
+                    backgroundColor: '#1E2022',
                 }
             ]
         });
@@ -54,7 +54,8 @@ const Chart = () => {
     },[])
     return (
         <>
-            <div className='w-full md:col-span-2 relative lg:h-[70vh] h-[50vh] m-auto p-4 border rounded-lg bg-white'>
+<div className='w-full md:col-span-2 relative lg:h-[70vh] h-[50vh] m-auto p-4 border rounded-lg bg-[#ffffff]'>
+
                 <Bar data={chartData} options={chartOptions} />
             </div>
         </>
