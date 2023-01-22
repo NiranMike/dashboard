@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image';
 import Header from '@/components/Header';
 import Cards from '@/components/Cards';
+import Chart from '@/components/Chart';
+import Orders from '@/components/Orders';
 
 export default function Home() {
   return (
@@ -15,6 +17,10 @@ export default function Home() {
         <main className=' bg-gray-100 min-h-screen'>
         <Header />
         <Cards />
+        <div className=' p-4 grid md:grid-cols-3 grid-cols-1 gap-4'>
+          <Chart />
+          <Orders />
+        </div>
         </main>
     </>
   )
