@@ -22,13 +22,13 @@ const Sidebar = ({children}) => {
                       </div>
                   </Link>
 
-                  <Link href={'/customer'}>
+                  <Link href={'/Customers'}>
                       <div className='bg-gray-100  hover:bg-gray-300 p-3 rounded-lg cursor-pointer my-4 inline-block font-bold'>
                           <RxPerson size={20} />
                       </div>
                   </Link>
 
-                  <Link href={'/orders'}>
+                  <Link href={'/OrdersPage'}>
                       <div className='bg-gray-100  hover:bg-gray-300 p-3 rounded-lg cursor-pointer my-4 inline-block font-bold'>
                           <HiOutlineShoppingBag size={20} />
                       </div>
